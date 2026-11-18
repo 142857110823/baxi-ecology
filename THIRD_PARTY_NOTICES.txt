@@ -1,0 +1,86 @@
+坝系 · 守住家园 / Third-party notices
+
+DATA
+
+This work contains modified Copernicus DEM GLO-30 data.
+Original product: Copernicus_DSM_COG_10_N37_00_E110_00_DEM.tif.
+Modifications: crop to an 8 km square, resample to a 236 x 236 grid,
+use the grid as horizontally compressed, vertically scaled distant context.
+The playable 240 x 160 game-meter terrain, its channels, structures and
+vegetation are a separate deterministic teaching setting, not a surveyed
+reconstruction. Its seam is blended into the distant context for presentation.
+Simulation parameters, capacities, lengths and time are illustrative game units.
+Terrain binary MD5: 168be7ac5612ec07b1f82f603c874aab.
+
+Copernicus DEM attribution:
+© DLR e.V. 2010-2014 and © Airbus Defence and Space GmbH 2014-2018
+provided under COPERNICUS by the European Union and ESA; all rights reserved.
+
+Product description and applicable access/usage terms:
+https://dataspace.copernicus.eu/explore-data/data-collections/copernicus-contributing-missions/collections-description/COP-DEM
+
+The modifications and illustrative treatment assumptions are not endorsed
+by the data providers. This work is not suitable for engineering decisions.
+No OpenStreetMap features or externally sourced photographs are included.
+
+THREE.JS r150 / MIT
+Copyright 2010-2023 Three.js Authors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+LUCIDE v1.8.0 / ISC
+Copyright (c) 2026 Lucide Icons and Contributors
+
+Permission to use, copy, modify, and/or distribute this software for any
+purpose with or without fee is hereby granted, provided that the above
+copyright notice and this permission notice appear in all copies.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
+ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
+ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
+OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+
+Lucide includes icons derived from Feather. The full Lucide license,
+including its Feather MIT notice, is provided in vendor/LUCIDE_LICENSE.txt.
+
+RAPIER3D-COMPAT 0.21.0 / Apache-2.0
+Copyright Dimforge and contributors. Full license: vendor/RAPIER_LICENSE.txt.
+The compatibility package includes embedded WebAssembly. Runtime use is local.
+
+THREE.JS Reflector / r150 / MIT
+The same-version examples/jsm/objects/Reflector.js is bundled unmodified.
+It shares the vendored THREE runtime. The Three.js MIT notice above applies.
+
+POSTPROCESSING 6.32.2 / Zlib
+Full original license: vendor/packages/postprocessing/LICENSE.md.
+Runtime: local vendor/plugins.js, sharing THREE r150.
+
+THREE-MESH-BVH 0.5.24 / MIT
+Full original license: vendor/packages/three-mesh-bvh/LICENSE.
+Runtime: local terrain BVH and accelerated raycast.
+
+@TWEENJS/TWEEN.JS 25.0.0 / MIT
+Full original license: vendor/packages/tweenjs-tween.js/LICENSE.
+Runtime: local camera interpolation with an explicit Group.
+
+Original distributions, integrity hashes and provenance:
+vendor/plugins.lock.json and vendor/packages/.

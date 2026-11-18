@@ -1,0 +1,166 @@
+{
+  "fetched_at": "2026-11-13T00:40:07.910Z",
+  "url": "https://registry.npmjs.org/postprocessing/6.32.2",
+  "metadata": {
+    "ava": {
+      "files": [
+        "./test/**/*"
+      ],
+      "failFast": true
+    },
+    "bugs": {
+      "url": "https://github.com/pmndrs/postprocessing/issues"
+    },
+    "dist": {
+      "shasum": "4b6fe0c821e448986c566379df6c3ecd163995a7",
+      "tarball": "https://registry.npmjs.org/postprocessing/-/postprocessing-6.32.2.tgz",
+      "fileCount": 9,
+      "integrity": "sha512-BpjIHeElXRmkcqO6p8Pi6W1uDcivQa2FVQ/Swnoo32Cg5bq/bb0mh9hXSHeCkIBD0W4D2KU8Fg7jBICztcN9iQ==",
+      "signatures": [
+        {
+          "sig": "MEQCIDtj47XVfkFZ1wYhDSCKANrrdadex3rb4/iueW8/P9naAiBgLDK6nDOG3577B7t8ny8hIK2dxTGTEeZcvLLQGCoLBA==",
+          "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA"
+        }
+      ],
+      "unpackedSize": 2710309
+    },
+    "main": "./build/index.cjs",
+    "name": "postprocessing",
+    "type": "module",
+    "types": "./build/types/index.d.cts",
+    "author": {
+      "name": "Raoul van Rüschen",
+      "email": "vanruesc@outlook.de"
+    },
+    "module": "./build/index.js",
+    "engines": {
+      "node": ">= 0.13.2"
+    },
+    "exports": {
+      ".": {
+        "import": {
+          "types": "./build/types/index.d.ts",
+          "default": "./build/index.js"
+        },
+        "require": {
+          "types": "./build/types/index.d.cts",
+          "default": "./build/index.cjs"
+        }
+      }
+    },
+    "gitHead": "3fbe7b770f826019933b1386d27ebc04315feb00",
+    "license": "Zlib",
+    "scripts": {
+      "ava": "ava",
+      "doc": "esdoc",
+      "copy": "cpy \"demo/static/**/*\" public/demo",
+      "gzip": "gzipper c public",
+      "hugo": "hugo -s manual --minify",
+      "lint": "run-s lint:*",
+      "test": "run-s clean lint build:css build:js:min build:dts ava",
+      "clean": "del-cli build tmp manual/resources \"manual/assets/**/dist\" public",
+      "start": "hugo server -s manual -e development",
+      "watch": "run-p watch:* start",
+      "deploy": "run-s copy postcss hugo gzip",
+      "lint:js": "eslint --ext .js --fix src demo/src manual/assets/js/src",
+      "postcss": "postcss manual/assets/css/dist/index.css -o manual/assets/css/dist/index.css -c manual",
+      "build:js": "node esbuild",
+      "lint:css": "stylelint --fix manual/assets/css/src",
+      "prewatch": "run-s clean copy build:css build:js",
+      "watch:js": "node esbuild -w",
+      "build:css": "sass --no-source-map -I manual/assets/css/src/values manual/assets/css/src:manual/assets/css/dist",
+      "build:dts": "cpy \"types/*\" build/types && cpy \"types/*\" build/types --rename=index.d.cts",
+      "watch:css": "sass --no-source-map -I manual/assets/css/src/values manual/assets/css/src:manual/assets/css/dist -w",
+      "build:js:min": "node esbuild -m",
+      "watch:eslint": "esw -w --ext .js --color src demo/src manual/assets/js/src",
+      "prepublishOnly": "run-s test doc"
+    },
+    "_npmUser": {
+      "name": "vanruesc",
+      "email": "vanruesc@outlook.de"
+    },
+    "homepage": "https://github.com/pmndrs/postprocessing",
+    "keywords": [
+      "rendering",
+      "image",
+      "filter",
+      "effect",
+      "composer",
+      "pass",
+      "post",
+      "processing",
+      "gpgpu",
+      "rtt",
+      "rendertexture",
+      "rendertarget",
+      "three"
+    ],
+    "repository": {
+      "url": "git+https://github.com/pmndrs/postprocessing.git",
+      "type": "git"
+    },
+    "_npmVersion": "9.5.1",
+    "description": "A post processing library for three.js.",
+    "directories": {},
+    "maintainers": [
+      {
+        "name": "vanruesc",
+        "email": "vanruesc@outlook.de"
+      }
+    ],
+    "sideEffects": false,
+    "_nodeVersion": "18.16.1",
+    "eslintConfig": {
+      "extends": "aether"
+    },
+    "_hasShrinkwrap": false,
+    "devDependencies": {
+      "ava": "5.x.x",
+      "sass": "1.x.x",
+      "esdoc": "1.x.x",
+      "three": "0.x.x",
+      "tslib": "2.x.x",
+      "eslint": "8.x.x",
+      "cpy-cli": "5.x.x",
+      "cssnano": "6.x.x",
+      "dat.gui": "0.x.x",
+      "del-cli": "5.x.x",
+      "esbuild": "0.18.x",
+      "gzipper": "7.x.x",
+      "postcss": "8.x.x",
+      "hugo-bin": "0.x.x",
+      "stylelint": "15.x.x",
+      "tiny-glob": "0.x.x",
+      "tweakpane": "3.x.x",
+      "three-demo": "5.x.x",
+      "typescript": "5.x.x",
+      "npm-run-all": "4.x.x",
+      "postcss-cli": "10.x.x",
+      "@types/three": "0.x.x",
+      "autoprefixer": "10.x.x",
+      "eslint-watch": "8.x.x",
+      "@tweakpane/core": "1.x.x",
+      "stylelint-order": "6.x.x",
+      "spatial-controls": "6.x.x",
+      "postcss-preset-env": "8.x.x",
+      "esbuild-plugin-glsl": "1.x.x",
+      "eslint-config-aether": "1.x.x",
+      "esdoc-standard-plugin": "1.x.x",
+      "esdoc-importpath-plugin": "1.x.x",
+      "@typescript-eslint/parser": "5.x.x",
+      "stylelint-config-standard-scss": "10.x.x",
+      "@typescript-eslint/eslint-plugin": "5.x.x"
+    },
+    "peerDependencies": {
+      "three": ">= 0.138.0 < 0.155.0"
+    },
+    "_npmOperationalInternal": {
+      "tmp": "tmp/postprocessing_6.32.2_1688211014766_0.47297571471173283",
+      "host": "s3://npm-registry-packages"
+    },
+    "_id": "postprocessing@6.32.2",
+    "version": "6.32.2"
+  },
+  "verified_tarball_sha256": "66f5ecc50342b8794bf42f2c290902fb49165a952dce927cc0c4241858d1af31",
+  "verified_integrity": "sha512-BpjIHeElXRmkcqO6p8Pi6W1uDcivQa2FVQ/Swnoo32Cg5bq/bb0mh9hXSHeCkIBD0W4D2KU8Fg7jBICztcN9iQ=="
+}

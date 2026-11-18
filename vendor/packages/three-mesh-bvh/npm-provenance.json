@@ -1,0 +1,117 @@
+{
+  "fetched_at": "2026-11-13T00:40:09.116Z",
+  "url": "https://registry.npmjs.org/three-mesh-bvh/0.5.24",
+  "metadata": {
+    "bugs": {
+      "url": "https://github.com/gkjohnson/three-mesh-bvh/issues"
+    },
+    "dist": {
+      "shasum": "56dd27ad35bfbafacedaba4a4d567723bbdd686c",
+      "tarball": "https://registry.npmjs.org/three-mesh-bvh/-/three-mesh-bvh-0.5.24.tgz",
+      "fileCount": 34,
+      "integrity": "sha512-VTIgfjz8aFoPKTQoMIQQv9jJD4ybFRZuKKE1/kqy78FQcuHQ0+iIWv7C5cSb2inlvs7bNMVY3yRx3RXGZfrvzQ==",
+      "signatures": [
+        {
+          "sig": "MEUCIQC9gPhoVOj5HJMbc7THZ8iE/lKaaVb6DdGjf0dxl44DfwIgFyQWD3yqyZa5fHijzxBa2r6aEtVKliVzeH6LekIxWOY=",
+          "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA"
+        }
+      ],
+      "unpackedSize": 1170513
+    },
+    "main": "build/index.umd.cjs",
+    "name": "three-mesh-bvh",
+    "type": "module",
+    "types": "src/index.d.ts",
+    "author": {
+      "name": "Garrett Johnson",
+      "email": "garrett.kjohnson@gmail.com"
+    },
+    "module": "src/index.js",
+    "gitHead": "2a612e1ca54a19437806624363efdfff5addc9e5",
+    "license": "MIT",
+    "scripts": {
+      "lint": "eslint \"./src/**/*.{js,ts}\" \"./test/**/*.{js,ts}\" \"./example/*.js\" && tsc --noEmit",
+      "test": "cd test && jest",
+      "build": "rollup -c",
+      "start": "concurrently \"cd example && parcel watch ./*.html --dist-dir ./dev-bundle/ --public-url . --no-cache --no-hmr\" \"static-server\"",
+      "benchmark": "node benchmark/run-benchmark.js",
+      "build-examples": "cd example && parcel build ./*.html --dist-dir ./bundle/ --public-url . --no-cache --no-content-hash",
+      "prepublishOnly": "npm run build"
+    },
+    "_npmUser": {
+      "name": "gkjohnson",
+      "email": "garrett.kjohnson@gmail.com"
+    },
+    "homepage": "https://github.com/gkjohnson/three-mesh-bvh#readme",
+    "keywords": [
+      "graphics",
+      "raycast",
+      "tree",
+      "bounds",
+      "threejs",
+      "three-js",
+      "bounds-hierarchy",
+      "performance",
+      "raytracing",
+      "pathtracing",
+      "geometry",
+      "mesh",
+      "distance",
+      "intersection",
+      "acceleration",
+      "bvh",
+      "webvr",
+      "webxr"
+    ],
+    "repository": {
+      "url": "git+https://github.com/gkjohnson/three-mesh-bvh.git",
+      "type": "git"
+    },
+    "_npmVersion": "8.19.2",
+    "description": "A BVH implementation to speed up raycasting against three.js meshes.",
+    "directories": {},
+    "maintainers": [
+      {
+        "name": "gkjohnson",
+        "email": "garrett.kjohnson@gmail.com"
+      }
+    ],
+    "sideEffects": false,
+    "_nodeVersion": "16.18.1",
+    "_hasShrinkwrap": false,
+    "devDependencies": {
+      "jest": "^27.2.4",
+      "three": "^0.146.0",
+      "eslint": "^7.32.0",
+      "parcel": "^2.0.0",
+      "rollup": "^2.58.0",
+      "stats.js": "^0.17.0",
+      "babel-jest": "^27.2.4",
+      "typescript": "^4.4.3",
+      "@babel/core": "^7.15.5",
+      "@types/jest": "^27.0.2",
+      "@types/three": "^0.139.0",
+      "concurrently": "^5.3.0",
+      "@types/eslint": "^7.28.1",
+      "script-loader": "^0.7.2",
+      "simplex-noise": "^2.4.0",
+      "static-server": "^2.2.1",
+      "@babel/preset-env": "^7.15.4",
+      "eslint-config-mdcs": "^5.0.0",
+      "eslint-plugin-jest": "^23.20.0",
+      "@typescript-eslint/parser": "^4.33.0",
+      "@typescript-eslint/eslint-plugin": "^4.33.0"
+    },
+    "peerDependencies": {
+      "three": ">= 0.123.0"
+    },
+    "_npmOperationalInternal": {
+      "tmp": "tmp/three-mesh-bvh_0.5.24_1683985384520_0.19431039073767487",
+      "host": "s3://npm-registry-packages"
+    },
+    "_id": "three-mesh-bvh@0.5.24",
+    "version": "0.5.24"
+  },
+  "verified_tarball_sha256": "7046a9a772e564e665716d9a68fcab46f12d5e217877eb0a6e46c7173ee0d00a",
+  "verified_integrity": "sha512-VTIgfjz8aFoPKTQoMIQQv9jJD4ybFRZuKKE1/kqy78FQcuHQ0+iIWv7C5cSb2inlvs7bNMVY3yRx3RXGZfrvzQ=="
+}

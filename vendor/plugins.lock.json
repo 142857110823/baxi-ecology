@@ -1,0 +1,152 @@
+{
+  "created": "2026-11-13T00:42:32.492Z",
+  "three": "0.150.1",
+  "threeStrategy": "Shared window.THREE via app/src/three-global.js; no bundled Three",
+  "threeProvenance": {
+    "shippedCore": {
+      "version": "0.150.1",
+      "revision": "150",
+      "path": "three.min.js",
+      "sha256": "72c8a8302444fb39cb8e04be1f556b2fdca798e606a99b4b37c8cfe3e3ee3272",
+      "verifiedAgainst": "https://registry.npmjs.org/three/-/three-0.150.1.tgz"
+    },
+    "gameBuildHelpers": {
+      "originalPackageVersion": "0.150.0",
+      "originalPackagePath": "F:/CacheRoot/Temp/baxi-game/node_modules/three",
+      "byteIdenticalToVersion": "0.150.1",
+      "files": {
+        "examples/jsm/objects/Reflector.js": "6e03d43b0de40c0f80307350e8376a42ca94a70434ed38b774c85db1fcdd8bde",
+        "examples/jsm/utils/BufferGeometryUtils.js": "08043dfe55db5659bcb768aebc4b88f11d73661666e117bca5877bf504657498"
+      },
+      "note": "Bundled helper inputs come from installed package 0.150.0; both also exactly match official 0.150.1. The shared browser core is the unmodified official 0.150.1 distribution."
+    }
+  },
+  "buildTool": {
+    "name": "esbuild",
+    "version": "0.25.12",
+    "cache": "F:/CacheRoot/Temp/baxi-rescue"
+  },
+  "selected": [
+    {
+      "name": "postprocessing",
+      "version": "6.32.2",
+      "folder": "postprocessing",
+      "repo": "pmndrs/postprocessing",
+      "license": "Zlib",
+      "peerDependencies": {
+        "three": ">= 0.138.0 < 0.155.0"
+      },
+      "registry": "https://registry.npmjs.org/postprocessing/6.32.2",
+      "tarball": "https://registry.npmjs.org/postprocessing/-/postprocessing-6.32.2.tgz",
+      "integrity": "sha512-BpjIHeElXRmkcqO6p8Pi6W1uDcivQa2FVQ/Swnoo32Cg5bq/bb0mh9hXSHeCkIBD0W4D2KU8Fg7jBICztcN9iQ==",
+      "tarball_sha256": "66f5ecc50342b8794bf42f2c290902fb49165a952dce927cc0c4241858d1af31",
+      "gitHead": "3fbe7b770f826019933b1386d27ebc04315feb00",
+      "licensePath": "packages/postprocessing/LICENSE.md"
+    },
+    {
+      "name": "three-mesh-bvh",
+      "version": "0.5.24",
+      "folder": "three-mesh-bvh",
+      "repo": "gkjohnson/three-mesh-bvh",
+      "license": "MIT",
+      "peerDependencies": {
+        "three": ">= 0.123.0"
+      },
+      "registry": "https://registry.npmjs.org/three-mesh-bvh/0.5.24",
+      "tarball": "https://registry.npmjs.org/three-mesh-bvh/-/three-mesh-bvh-0.5.24.tgz",
+      "integrity": "sha512-VTIgfjz8aFoPKTQoMIQQv9jJD4ybFRZuKKE1/kqy78FQcuHQ0+iIWv7C5cSb2inlvs7bNMVY3yRx3RXGZfrvzQ==",
+      "tarball_sha256": "7046a9a772e564e665716d9a68fcab46f12d5e217877eb0a6e46c7173ee0d00a",
+      "gitHead": "2a612e1ca54a19437806624363efdfff5addc9e5",
+      "licensePath": "packages/three-mesh-bvh/LICENSE"
+    },
+    {
+      "name": "@tweenjs/tween.js",
+      "version": "25.0.0",
+      "folder": "tweenjs-tween.js",
+      "repo": "tweenjs/tween.js",
+      "license": "MIT",
+      "peerDependencies": {},
+      "registry": "https://registry.npmjs.org/@tweenjs/tween.js/25.0.0",
+      "tarball": "https://registry.npmjs.org/@tweenjs/tween.js/-/tween.js-25.0.0.tgz",
+      "integrity": "sha512-XKLA6syeBUaPzx4j3qwMqzzq+V4uo72BnlbOjmuljLrRqdsd3qnzvZZoxvMHZ23ndsRS4aufU6JOZYpCbU6T1A==",
+      "tarball_sha256": "3adc6badf9071b9ad70df0e3771ebf6ef2c4d7e0850fbd1249f853893a5ad6b2",
+      "gitHead": "eb07dd2012862269e652129230a71baa4d3608ae",
+      "licensePath": "packages/tweenjs-tween.js/LICENSE"
+    }
+  ],
+  "files": {
+    "packages/postprocessing/build/index.cjs": "81abc36bbdb86800fecc278cdfd12c4d0dea41258c0985a1c9041b0a9737674c",
+    "packages/postprocessing/build/index.js": "c12960e6b264ef1da26755f2a16182d2c449f45dcb2b2312aa0248aafd840b26",
+    "packages/postprocessing/build/postprocessing.js": "114a49ec596e5630962dea39192e354df3cd02ce239a2ef9578756a63a81034a",
+    "packages/postprocessing/build/postprocessing.min.js": "b885600ed45f86b9e46772e08ab3d5c011fde56ac26d0aa6f99af07ddc43d1d6",
+    "packages/postprocessing/build/types/index.d.cts": "8c3ff1f0a1e51932108d93b3b757b48830afe81f69367e9ad087db2d6bd2ec91",
+    "packages/postprocessing/build/types/index.d.ts": "8c3ff1f0a1e51932108d93b3b757b48830afe81f69367e9ad087db2d6bd2ec91",
+    "packages/postprocessing/LICENSE.md": "b7650918449bd5fb011ce30ce0e5bcda27aa9639db1fb3aef8c67c32945237f2",
+    "packages/postprocessing/npm-provenance.json": "a42de8899e4bb3771e65ad9f615fd204ebe92c483d320e42a76cd5e9d990eec9",
+    "packages/postprocessing/package.json": "0657173a1f8dd80f71e7c8e34caed61a637655c5b60c177615485ec38959e46b",
+    "packages/postprocessing/README.md": "6f255e9225d40e538ce409ec9cdefeb231eb43bbb80e39ce9c4c10c020b7c2c2",
+    "packages/postprocessing/upstream.tgz": "66f5ecc50342b8794bf42f2c290902fb49165a952dce927cc0c4241858d1af31",
+    "packages/three-mesh-bvh/build/index.module.js": "3e7d8b2ce14e31fed30d7c5b8b2e8d613258e7554279bebeaf60284078903aaf",
+    "packages/three-mesh-bvh/build/index.module.js.map": "881bce98a4f0d3cce2523ff46beeac3fd3defdd838e216bf38df2364a3c94917",
+    "packages/three-mesh-bvh/build/index.umd.cjs": "fa21fed24af67f5ba55b23211685e0c960047dda182ac8babb3586b33788cb83",
+    "packages/three-mesh-bvh/build/index.umd.cjs.map": "867fae9c6b3603fd30aabea0b7a86ec37c45897a3a0151e49b4f1f7de8f7046b",
+    "packages/three-mesh-bvh/LICENSE": "b106ef6198a9862ed2b5b873e944ecf3583c631a84a7462d400ecc1910ce7fee",
+    "packages/three-mesh-bvh/npm-provenance.json": "9c940e6307aae1d3f5aa4d4d4ff96e94363b1e52eab5410deff67a18e69cb8dd",
+    "packages/three-mesh-bvh/package.json": "014b700b65c39c2520151250417884a96541f42e2cf505d93aa1aec8b6b16ee4",
+    "packages/three-mesh-bvh/README.md": "c9dd837c89c8d05f4b6ae4226afba1a4b395756643b5cc565ac5b3894160b237",
+    "packages/three-mesh-bvh/src/core/buildFunctions.js": "54d52f874b4bba02624fd1e3ce881fe22bea1cf7555fe5d7ed9bbd94428e03af",
+    "packages/three-mesh-bvh/src/core/bvhcast.js": "64237c184986b190c3158edfe0372279b25ca0b81bf506a240fc77c74dad159d",
+    "packages/three-mesh-bvh/src/core/castFunctions.js": "b4565f8e3db67acc0c212a8d811755948b7d5097301a256619d5b50a406702a7",
+    "packages/three-mesh-bvh/src/core/Constants.js": "e15bd1425bee8a1632a0e1a0af4481debfafca208b7d35f8774acb630acc5426",
+    "packages/three-mesh-bvh/src/core/MeshBVH.js": "d3bbab6f6cf2e7254d629da271d612bb00e0b7717e84b3530bb58e5e2365a7ab",
+    "packages/three-mesh-bvh/src/core/MeshBVHNode.js": "3d901548deb0946622b6819d3af6fb68c2c6c5d94e3dd2be249eed4eac219763",
+    "packages/three-mesh-bvh/src/core/nodeBufferFunctions.js": "91b9ee5a30742efb87b54b840159bb773feda4dc9289315ed0c6a0d846abcb6d",
+    "packages/three-mesh-bvh/src/debug/Debug.js": "0fb233ae684327649950ecafcea904eef1d1f91d915d9f09cb9b2b83d9fe6caf",
+    "packages/three-mesh-bvh/src/gpu/MeshBVHUniformStruct.js": "bedd4530cbfee65b2d1713dcaa7842afddaf8259b35f620f0febcf0d78ce0035",
+    "packages/three-mesh-bvh/src/gpu/shaderFunctions.js": "a56a70d5851c52177f70450a07df454df7d8619f80bf117411c197a837339b59",
+    "packages/three-mesh-bvh/src/gpu/VertexAttributeTexture.js": "5cfcf7ff3258db32f6cf60a0bbb34dd8357a4fe98882e28b86e0c47db8e137c8",
+    "packages/three-mesh-bvh/src/index.d.ts": "42962f404504fe0156e4e6b7f2b963813cab2a8c0e694957452c3dd39800dd07",
+    "packages/three-mesh-bvh/src/index.js": "54da6b41a571cf9745108180d4609ee4be824f75039a52670cad51fc2c7a4095",
+    "packages/three-mesh-bvh/src/math/ExtendedTriangle.js": "bb2b7197416f5f9ba910a0fff3290566fc36571cc9d39ad2cab98a9d1fafa018",
+    "packages/three-mesh-bvh/src/math/MathUtilities.js": "fef8090e904ae74be54a3595cabfe6881c0fa805a6a552968e8342fce69adf0f",
+    "packages/three-mesh-bvh/src/math/OrientedBox.js": "cd2c11b66678b63d9889880ac2fe0d7b69d5ca21915f3ee680981c9945ed51e0",
+    "packages/three-mesh-bvh/src/math/SeparatingAxisBounds.js": "71e25278b674a244b5b3bc57c3d694c64ba4b473ab4ed5d00b67a92f6ca6fdd5",
+    "packages/three-mesh-bvh/src/objects/MeshBVHVisualizer.js": "1d27e1984012325ef39a8d5fb8128a33c6e7c51d11f784feb2f3634ac5a44585",
+    "packages/three-mesh-bvh/src/utils/ArrayBoxUtilities.js": "68e765e459d6da5ff60e77eebcb06ab37ad8b8a70867ec3f566d8341c84d6fa3",
+    "packages/three-mesh-bvh/src/utils/ExtensionUtilities.js": "7e4c070757b742fa5ea2a0941776295eb99e0bd97d87f78580e20ffe7eaf5082",
+    "packages/three-mesh-bvh/src/utils/GeometryRayIntersectUtilities.js": "b51f37a89c629c77796e1f9ecfb436ebdc7eacb97f50de371399138fe0f8032c",
+    "packages/three-mesh-bvh/src/utils/PrimitivePool.js": "91c2510b6414084634479cacb9af1dee2f56114025108d68ab0ae01814ba329a",
+    "packages/three-mesh-bvh/src/utils/StaticGeometryGenerator.js": "5f618ab8801f112ee491ad558f0765957f1d834e96c3494abaa0b3531fac555e",
+    "packages/three-mesh-bvh/src/utils/ThreeRayIntersectUtilities.js": "29db0673abebcf9564332d9b03b75ec2c87c93150cc2a415f9c3ee89b4a736f8",
+    "packages/three-mesh-bvh/src/utils/TriangleUtilities.js": "1620043146222f7046d52fbf586875be1e7bb1dd9f8b265c8d4b92a8a7d9c42c",
+    "packages/three-mesh-bvh/src/workers/generateAsync.worker.js": "7c3357534b6d17f2090e8d175e4b5978c4d9f925be2284b762cff1b230e5a0c5",
+    "packages/three-mesh-bvh/src/workers/GenerateMeshBVHWorker.js": "1682717019223a0d37f35db8e5d6fd870fdbcdf9c73f9232c43c0883a3f71f5d",
+    "packages/three-mesh-bvh/upstream.tgz": "7046a9a772e564e665716d9a68fcab46f12d5e217877eb0a6e46c7173ee0d00a",
+    "packages/tweenjs-tween.js/dist/tween.amd.js": "5fa5b4d931dbe6195544656c08b3cebb66b4bd37505e7ee01d6590a9022729f0",
+    "packages/tweenjs-tween.js/dist/tween.cjs": "367c4f2cc92ed678f631dac2c78a0a38d87b2f50d8847e48f78038911f96ca39",
+    "packages/tweenjs-tween.js/dist/tween.d.ts": "d80b6d2e9e9e1c23a422e4a07ed7bdf06b4b6d2fb6368a8a5b86fac868f7ecab",
+    "packages/tweenjs-tween.js/dist/tween.esm.js": "095e3b8c30a67342dbabf27887cedd50558e0c491adcf31655d6ee58b91e5b74",
+    "packages/tweenjs-tween.js/dist/tween.umd.js": "a6baa0d92fcb06bc40cb691976c4c3ee3d9360b8a2d1505446c63c4743ce1f1d",
+    "packages/tweenjs-tween.js/LICENSE": "c95fecd88f2709bfc34e4d1f1ccc36d17048990e6ba26c283cfecdef0432936b",
+    "packages/tweenjs-tween.js/npm-provenance.json": "205035bb815c2dac0e64517f3c755cd2dfc948d4cff9e179767243c5396b8d02",
+    "packages/tweenjs-tween.js/package.json": "866db5e4b761dd50ccdc0aadcbccadb01f3491231b57047e8322bdcc68d11f3a",
+    "packages/tweenjs-tween.js/README.md": "abcf8482c6d4f12e50fb1f0ef4dd6bb2d8692cd076683427c08ffecd7600e370",
+    "packages/tweenjs-tween.js/upstream.tgz": "3adc6badf9071b9ad70df0e3771ebf6ef2c4d7e0850fbd1249f853893a5ad6b2",
+    "plugins.js": "02e51ad8fb01b2bff9c72f8e64a46fe799c26957f066f6be23f07bf765201c69"
+  },
+  "runtimeExports": [
+    "MeshBVH",
+    "acceleratedRaycast",
+    "computeBoundsTree",
+    "disposeBoundsTree",
+    "EffectComposer",
+    "RenderPass",
+    "EffectPass",
+    "BloomEffect",
+    "NoiseEffect",
+    "VignetteEffect",
+    "TWEEN"
+  ],
+  "runtimeNetwork": "None; synchronous classic script, load after vendor/three.min.js and before game.js",
+  "rebuild": "node build/vendor-plugins.mjs; reads current version vendor packages and local entry; reproduces and verifies plugins.js in memory; writes no files; esbuild stays on F:"
+}
